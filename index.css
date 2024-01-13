@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.mimamo {
+    background-color: #9f9f9f;
+    color: #383838;
+    text-align: center;
+    padding: 10px;
+    font-family: "Rubik Bubbles";
+    height: 30px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0;
+    margin: 0;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 0%;
+
+}
+
+.menu {
+    overflow: hidden;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.leftmenu {
+    float: left;
+    font-size: 13px;
+}
+
+.rightmenu {
+    float: right;
+    font-size: 13px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navi {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope";
+}
+
+.navi li ul {
+    display: none;
+    position: absolute;
+    border-top: 1px solid #afafaf; /* 서브메뉴의 테두리 설정 */
+}
+
+.navi li:hover ul {
+    display: block;
+}
+
+.navi > li {
+    float: left;
+}
+
+.navi > li > a {
+    padding: 10px 50px;
+    border-bottom: 2px solid transparent; /* 처음에 투명한 테두리로 설정 */
+    transition: border-bottom 0.4s ease; /* 부드러운 효과를 위한 트랜지션 추가 */
+}
+
+.navi > li:hover > a {
+    color: #afafaf;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+li a:hover {
+    color: #afafaf;
+    transition: 0.4s;
+}
+
+.btn_search {
+    position: relative;
+    font-family: "Manrope";
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.text_search {
+    border: none;
+}
+
+section {
+    padding: 2em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+}
