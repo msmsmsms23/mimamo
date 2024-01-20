@@ -102,6 +102,30 @@ li a:hover {
     border: none;
 }
 
+.detail {
+    height: 150px;
+    position: relative;
+    display: flex;
+}
+
+.thumbnail {
+    height: 50px;
+    position: absolute;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.detailTable {
+    height: 50px;
+    position: absolute;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
 section {
     padding: 2em;
 }
