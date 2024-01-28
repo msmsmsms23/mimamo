@@ -1,7 +1,13 @@
 body {
     font-family: Arial, sans-serif;
+    min-width: 1260px;
+    height: 100%;
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 .mimamo {
@@ -138,12 +144,83 @@ li a:hover {
 
 .itemTable,
 .optionTable {
+    font-size: 12px;
     width: 100%;
     border-collapse: collapse;
 }
 
 .optionTable {
     padding: 10px;
+}
+
+#wide_contents #wide_Inner {
+    margin: 0 100px;
+}
+
+.headCategory {
+    font-family: "Manrope";
+    padding: 0%;
+}
+
+.itemSort {
+    list-style-type: none;
+    float: right;
+}
+
+.itemSorted {
+    float: left;
+    font-size: 11px;
+}
+
+.login_wrapper {
+    font-family: "Manrope";
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.login-wrapper > h2{
+    font-family: "Manrope";
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#login-form {
+    font-size: 11px;
+}
+
+#login-form > input {
+    font-family: "Manrope";
+    border: none;
+    width: 20%;
+    height: 40px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border-radius: 6px;
+}
+
+#login-form > input[type="submit"] {
+    background-color: #FFFFFF;
+    width: 5%;
+    color: #000000;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#login-form > input[type="submit"]:hover {
+    color: #afafaf;
+    transition: 0.4s;
+}
+
+.exceptionItem > a {
+    color: #000000;
+}
+
+.exceptionItem > a:hover {
+    color: #afafaf;
+    transition: 0.4s;
 }
 
 section {
