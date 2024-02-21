@@ -15,9 +15,9 @@ a {
     color: #383838;
     text-align: center;
     padding: 10px;
-    font-family: "Rubik Bubbles";
+    font-family: "Passion One";
     height: 30px;
-    font-size: 12px;
+    font-size: 40px;
     font-weight: 300;
     line-height: 30px;
     letter-spacing: 0;
@@ -113,6 +113,15 @@ li a {
 li a:hover {
     color: #afafaf;
     transition: 0.4s;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner img {
+    width: 1510px;
+    height: 604px;
 }
 
 .btn_search {
